@@ -12,14 +12,16 @@ namespace FirstClass
 
         private Rigidbody rb;
 
+        PlayerController PlayerController;
         void Start()
         {
             rb = GetComponent<Rigidbody>();
-
+            PlayerController = GetComponent<PlayerController>();
         }
 
         void Update()
         {
+            if (PlayerController.IsPlayerDeath == true) return;
             MovePlayer();
         }
 

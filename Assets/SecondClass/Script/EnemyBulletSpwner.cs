@@ -21,6 +21,7 @@ public class EnemyBulletspawner: MonoBehaviour
     {
         while (true)
         {
+            //총알은 생성하는 코드
             GameObject enemyBullet = Instantiate(bullet, bulletTransform.position, Quaternion.identity);
 
             EnemyBullet bulletControl = enemyBullet.GetComponent<EnemyBullet>();
