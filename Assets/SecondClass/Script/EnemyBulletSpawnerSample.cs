@@ -24,6 +24,11 @@ namespace Sample
         {
             while (true)
             {
+
+                if (Gamemanager.Instance.IsplayerDeath)
+                    yield break;
+                // Game Manager isPlayrDeath 체크하는 if 함수
+                //총알은 생성하는 코드
                 GameObject enemyBullet =
                     Instantiate(bullet, bulletTransform.position, Quaternion.identity);
 

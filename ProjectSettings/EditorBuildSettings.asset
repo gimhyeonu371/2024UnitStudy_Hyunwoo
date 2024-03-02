@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SecondClass/Castle Guard/Castle Guard.unity
+    guid: 35af6015facf19b4cade5557e35d3ab1
+  - enabled: 1
+    path: Assets/FourthClass/intro.unity
+    guid: c2242bdc6b54a694da9028f9db7b8705
+  - enabled: 1
+    path: Assets/FourthClass/Sample/Intro.unity
+    guid: cc46d4f7552578143a8a5fa3c4baaecf
+  - enabled: 1
+    path: Assets/ThirdClass/Intro.unity
+    guid: 33bed8973c84d1a45882fa2556033435
+  - enabled: 1
+    path: Assets/FourthClass/Sample/LoadingScene.unity
+    guid: d9bb8ff578ed8984f884c72514b46f7b
+  - enabled: 1
+    path: Assets/FourthClass/Loeding.unity
+    guid: e4296fc567ef2a544beebaa0bbfe5371
+  - enabled: 1
+    path: Assets/FirstClass_Move/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
