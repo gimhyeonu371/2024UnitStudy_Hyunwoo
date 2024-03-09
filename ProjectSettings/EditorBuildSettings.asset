@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/FourthClass/Sample/LoadingScene.unity
     guid: d9bb8ff578ed8984f884c72514b46f7b
   - enabled: 1
+    path: Assets/FifthClass/Scene/NowLoadingScene.unity
+    guid: e4c11bccfd48dfc4a83e3d210fbdce8c
+  - enabled: 1
     path: Assets/FourthClass/Loeding.unity
     guid: e4296fc567ef2a544beebaa0bbfe5371
   - enabled: 1
